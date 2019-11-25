@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
     puts "#{directors_database[row_index]}"
     column_index = 0 
     while column_index < directors_database[row_index].length do 
-      puts "\t #{directors_database[row_index][column_index]}"
+      puts "#{directors_database[row_index][column_index]}"
     column_index += 1
     end
   row_index += 1
