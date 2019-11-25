@@ -26,7 +26,7 @@ def print_first_directors_movie_titles
     puts "Row #{row_index} has #{directors_database[row_index]} columns"
  
     column_index = 0
-    while column_index < directors_database[row_index].length do
+    while column_index < 1 do
       coord = "#{row_index}, #{column_index}"
       inner_len = directors_database[column_index].length
       # Remember \t is a TAB character for indentation
