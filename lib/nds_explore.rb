@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   # print pretty_print_nds(directors_database)
   row_index = 0 
   while row_index < 1 do
-    puts "Row #{row_index}, column: #{directors_database[row_index]}"
+    puts "column: #{directors_database[row_index]}"
     
   row_index += 1
   end 
