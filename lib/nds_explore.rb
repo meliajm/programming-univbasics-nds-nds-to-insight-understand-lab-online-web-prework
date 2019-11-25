@@ -30,7 +30,7 @@ def print_first_directors_movie_titles
       coord = "#{row_index}, #{column_index}"
       inner_len = directors_database[column_index].length
       # Remember \t is a TAB character for indentation
-      puts "#{directors_database} of length #{inner_len}"
+      #puts "#{directors_database} of length #{inner_len}"
  
       # inner_index = 0
       # while inner_index < inner_len do
