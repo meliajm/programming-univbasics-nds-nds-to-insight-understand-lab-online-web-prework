@@ -32,11 +32,11 @@ def print_first_directors_movie_titles
       # Remember \t is a TAB character for indentation
       puts "#{directors_database} of length #{inner_len}"
  
-      inner_index = 0
-      while inner_index < inner_len do
-        puts "\t\t (#{coord}, #{inner_index}) is: #{directors_database[row_index][column_index][inner_index]}"
-        inner_index += 1
-      end
+      # inner_index = 0
+      # while inner_index < inner_len do
+      #   puts "\t\t (#{coord}, #{inner_index}) is: #{directors_database[row_index][column_index][inner_index]}"
+      #   inner_index += 1
+      # end
  
     column_index += 1
     end
