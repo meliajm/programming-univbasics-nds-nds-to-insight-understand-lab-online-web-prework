@@ -22,9 +22,10 @@ def print_first_directors_movie_titles
   # end 
   
   row_index = 0
+  new_array = []
   while row_index < 1 do
-    puts "Row #{row_index} has #{directors_database[row_index]} columns"
- 
+    #puts "Row #{row_index} has #{directors_database[row_index]} columns"
+    
     column_index = 0
     while column_index < 1 do
       coord = "#{row_index}, #{column_index}"
@@ -43,4 +44,6 @@ def print_first_directors_movie_titles
  
   row_index += 1
   end
+  new_array.push(#{directors_database}[0])
+  puts new_array
 end
