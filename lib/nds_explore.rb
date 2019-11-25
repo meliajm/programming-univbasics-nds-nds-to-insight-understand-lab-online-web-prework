@@ -8,6 +8,5 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  print pretty_print_nds(nds)[0]
-  
+  print directors_database[0]
 end
