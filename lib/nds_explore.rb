@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   # print pretty_print_nds(directors_database)[0][0][:movies]
   # print pretty_print_nds(directors_database)
   row_index = 0 
-  while row_index < 3 do
+  while row_index < directors_database.length do
     puts "#{directors_database[row_index]}"
     column_index = 0 
     while column_index < directors_database[row_index].length do 
