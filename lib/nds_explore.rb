@@ -43,7 +43,8 @@ def print_first_directors_movie_titles
     end
  
   row_index += 1
-  end
   new_array.push(#{directors_database}[0])
   puts new_array
+  end
+  
 end
