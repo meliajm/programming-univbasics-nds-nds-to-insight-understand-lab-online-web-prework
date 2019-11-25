@@ -26,11 +26,11 @@ def print_first_directors_movie_titles
     puts "Row #{row_index} has #{vm[row_index]} columns"
  
     column_index = 0
-    while column_index < vm[row_index].length do
+    while column_index < directors_database[row_index].length do
       coord = "#{row_index}, #{column_index}"
-      inner_len = vm[row_index][column_index].length
+      inner_len = directors_database[column_index].length
       # Remember \t is a TAB character for indentation
-      puts "\tCoordinate [#{coord}] points to an #{vm[row_index][column_index].class} of length #{inner_len}"
+      puts "\tCoordinate [#{coord}] points to an #{directors_database} of length #{inner_len}"
  
       inner_index = 0
       while inner_index < inner_len do
