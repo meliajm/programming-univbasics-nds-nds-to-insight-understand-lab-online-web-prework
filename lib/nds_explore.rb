@@ -44,4 +44,3 @@ def print_first_directors_movie_titles
   row_index += 1
 end
 
-end
